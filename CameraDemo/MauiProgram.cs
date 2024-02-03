@@ -1,7 +1,6 @@
 ﻿using CameraDemo.ViewModels;
 using CameraDemo.Views;
 using CommunityToolkit.Maui;
-using Kotlin.Contracts;
 using Microsoft.Extensions.Logging;
 
 namespace CameraDemo
