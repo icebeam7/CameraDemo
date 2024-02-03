@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="CameraDemo.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:CameraDemo"
+    xmlns:views="clr-namespace:CameraDemo.Views"
+    Shell.FlyoutBehavior="Flyout"
+    BackgroundColor="LightBlue"
+    Title="CameraDemo">
+
+    <ShellContent
+        Title="Photo"
+        ContentTemplate="{DataTemplate views:PhotoView}"
+        Route="PhotoPage" />
+
+    <ShellContent
+        Title="Video"
+        ContentTemplate="{DataTemplate views:VideoView}"
+        Route="VideoPage" />
+</Shell>
